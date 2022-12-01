@@ -1,0 +1,31 @@
+stimulus_type: Latin # implemented: Latin
+
+screen_color: #262626
+text_color: black
+text_size: 28
+
+# block
+block_order: [no_memory, no_memory]
+training_elements_per_group: 2  # training_len = training_elements_per_group * 6 (n_of_groups)
+randomize_blocks: False
+
+# fixation point
+fixation_size: 56
+fixation_color: black
+fixation_text: +
+fixation_time: 1
+
+# trial
+elements_size: 28
+distance_in_pair: [15, 0]
+distance_between_stim_pairs: [50, 0]
+distance_between_answer_pairs: [50, 0]
+stimulus_pos: [0, 100]
+answers_pos: [0, -80]
+stim_time: 4
+answer_time: 5
+
+reaction_keys: [left, down, right]
+
+wait_time: 1.5
+wait_jitter: 1

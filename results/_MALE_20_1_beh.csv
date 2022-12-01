@@ -1,0 +1,2 @@
+n,block_n,block_type,trial_type,with_equal,rt,acc,order,stimulus,answers,correct_answer
+1,0,no_memory_training,reversed,True,,-1,"['T', 'N', 'V']","[['V', '\\', 'N'], ['T', '|', 'N']]","[['N', '|', 'T'], ['V', '|', 'N'], ['V', '/', 'T']]","['N', '|', 'T']"
