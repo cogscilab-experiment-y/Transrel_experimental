@@ -1,2 +1,3 @@
 n,block_n,block_type,trial_type,with_equal,rt,acc,order,stimulus,answers,correct_answer
-1,0,no_memory_training,reversed,True,,-1,"['T', 'N', 'V']","[['V', '\\', 'N'], ['T', '|', 'N']]","[['N', '|', 'T'], ['V', '|', 'N'], ['V', '/', 'T']]","['N', '|', 'T']"
+1,0,no_memory_training,two_pairs,False,3.283488600005512,0,"['B', 'X', 'U']","[['X', '\\', 'B'], ['X', '/', 'U']]","[['X', '\\', 'U'], ['B', '\\', 'U'], ['U', '\\', 'B']]","['U', '\\', 'B']"
+2,0,no_memory_training,reversed,True,1.680523600007291,0,"['P', 'L', 'O']","[['L', '/', 'O'], ['L', '|', 'P']]","[['P', '|', 'L'], ['P', '|', 'O'], ['L', '\\', 'P']]","['P', '|', 'L']"
