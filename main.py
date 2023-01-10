@@ -113,7 +113,7 @@ def main():
     fixation = visual.TextStim(win, color=config["fixation_color"], text=config["fixation_text"],
                                height=config["fixation_size"])
 
-    if info["Session"] == 1:
+    if info["Session"] == "1":
         trials = all_possible_trials()
         save_trials(trials, PART_ID[:-2])
         trials = trials[:int(len(trials)/2)]

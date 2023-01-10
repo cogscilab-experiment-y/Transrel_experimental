@@ -1,3 +1,4 @@
+import os
 from copy import deepcopy
 
 from psychopy.visual import TextStim
@@ -5,6 +6,7 @@ import random
 import yaml
 from os.path import join
 import numpy as np
+import random
 
 
 def prepare_stim(win, trail_raw, config, stimulus_type):
@@ -56,12 +58,14 @@ def replace_stimulus(trial_raw, allowed_stimulus):
 
 
 def save_trials(trials, part_id):
-    with open(join("trials", f"{part_id}.yaml"), "w") as file:
+    num = random.randint(100, 999)
+    with open(join("trials", f"{part_id}_{num}.yaml"), "w") as file:
         yaml.safe_dump(trials, file)
 
 
 def load_trials(part_id):
-    with open(join("trials", f"{part_id}.yaml"), "r") as file:
+    file_name = [file for file in os.listdir("trials") if file.startswith(part_id)][0]
+    with open(join("trials", file_name), "r") as file:
         return yaml.safe_load(file)
 
 

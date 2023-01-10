@@ -5,8 +5,7 @@ from code.check_exit import abort_with_error
 
 def part_info():
     info = {'Part_id': '', 'Part_age': '20', 'Part_sex': ['MALE', "FEMALE"], 'Session': [1, 2]}
-    # info = {'Part_id': '', 'Part_age': '20', 'Part_sex': 'MALE', 'Session': 1}
-    dictDlg = gui.DlgFromDict(dictionary=info, title='Stroop')
+    dictDlg = gui.DlgFromDict(dictionary=info, title='Transrel experimental')
     if not dictDlg.OK:
         exit(1)
     return info, f"{info['Part_id']}_{info['Part_sex']}_{info['Part_age']}_{info['Session']}"
