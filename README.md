@@ -27,4 +27,6 @@ A/C	A\C	C|A		C/A	C|A	B|C		A\C	C|A	C|B
 Na razie zakładam, że X = 4 s, Y = 5 s, interwał między kolejnymi próbami 2 s.
 Zadanie daje 12 (2×2×3) kombinacji warunków eksperymentalnych. Dla tych warunków można liczyć (1) osobne korelacje z czynnikiem Gf, (2) model SEM ustalonych ładunków, (3) model mieszany. 
 Ponieważ zadanie jest długie, plan jest taki, by podzielić je na dwie części, każda z blokiem z pamięci i bez (I część: blok bez pamięci, blok z pamięcią, II część: blok z pamięcią, blok bez pamięci). Pozostałe dwa czynniki randomizowane w ramach bloku, po 20 triali na kombinację warunków (120 triali/blok).
-Zakładam, że będzie różnica w korelacji Gf między warunkiem wiązań a bez wiązań, a integracja i pamięć będą bez większego znaczenia dla korelacji z Gf.  
+Zakładam, że będzie różnica w korelacji Gf między warunkiem wiązań a bez wiązań, a integracja i pamięć będą bez większego znaczenia dla korelacji z Gf. 
+
+UWAGA: jeżeli w pierwszej sesji zostanie puszczona dwa razy osoba z takimi samymi danymi, to w drugiej wczyta dane losowej z nich.
